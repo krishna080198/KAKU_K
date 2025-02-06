@@ -28,7 +28,7 @@ new Vue({
         {
           name: "A Playlist to Relax",
           artist: "Unknown",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+          cover: "https://img.freepik.com/premium-photo/abstract-watercolor-background_196038-13158.jpg",
           source: "mp3/clam.mp3",
           url: "https://youtu.be/borBJreBaWY?si=mqp8xExFfB3iSd3R",
           favorited: true
