@@ -233,3 +233,11 @@ function activate(e) {
   e.target.matches('.prev') && slider.append(items[items.ngth -1]);
 }
 document.addEventListener('click',activate,false);
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.querySelector('.theme-toggle');
+  const body = document.body;
+
+  toggleButton.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+  });
+});
