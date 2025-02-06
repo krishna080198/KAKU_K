@@ -9,11 +9,35 @@ body {
 * {
   box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    
-  
-  
+    padding: 0;    
 }
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.wrapper {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-size: cover;
+padding: 20px;
+/* Added padding for spacing */
+}
+
+@media screen and (max-width: 700px),
+(max-height: 500px) {
+.wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+}
+
 
 .player {
   width: 410px;
