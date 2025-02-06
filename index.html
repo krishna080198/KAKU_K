@@ -197,32 +197,6 @@
     
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
     <script src="./scripts/script.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const colors = ["red", "blue", "purple", "pink", "yellow", "orange", "green", "cyan", "lime", "magenta"];
-        const container = document.createElement("div");
-        container.classList.add("container");
-        document.body.appendChild(container);
-      
-        for (let i = 0; i < 80; i++) {
-            let heart = document.createElement("div");
-            heart.classList.add("heart");
-            heart.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-            heart.style.left = `${Math.random() * 100}vw`;
-            heart.style.top = `${Math.random() * 100}vh`;
-            container.appendChild(heart);
-        }
-      
-        for (let i = 0; i < 30; i++) {
-            let popper = document.createElement("div");
-            popper.classList.add("party-popper");
-            popper.style.left = `${Math.random() * 100}vw`;
-            popper.style.top = `${Math.random() * 100}vh`;
-            container.appendChild(popper);
-        }
-      });
-      </script>
-      
       
     </div>
   </body>
