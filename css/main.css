@@ -3,6 +3,11 @@ body {
   font-family: "Bitter", serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 * {
@@ -13,6 +18,49 @@ body {
   
   
 }
+.heart {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #ff4081;
+  transform: rotate(-45deg);
+  animation: fly 5s ease-in-out forwards;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #ff4081;
+  border-radius: 50%;
+}
+
+.heart:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart:after {
+  top: 0;
+  left: 50px;
+}
+
+@keyframes fly {
+  0% {
+      transform: translateY(100vh) rotate(-45deg);
+      opacity: 0;
+  }
+  20% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-100vh) translateX(50vw) rotate(-45deg);
+      opacity: 0;
+  }
+}
+
 
 .icon {
   display: inline-block;
