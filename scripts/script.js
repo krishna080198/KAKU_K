@@ -21,9 +21,17 @@ new Vue({
           name: "Chor",
           artist: "Justh",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source: "mp3/justh.mp3",
+          source: "mp3/Justh.mp3",
           url: "https://youtu.be/Gg48H-lrZHo?si=vkJJEXhmWQxNQbzu",
           favorited: false
+        },
+        {
+          name: "A Playlist to Relax",
+          artist: "Unknown",
+          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
+          source: "mp3/clam.mp3",
+          url: "https://youtu.be/borBJreBaWY?si=mqp8xExFfB3iSd3R",
+          favorited: true
         },
         {
           name: "Ek Pyar Ka Nagma Sanam",
@@ -81,14 +89,6 @@ new Vue({
           url: "https://youtu.be/CJq1hGSO89A?si=SUGWPfzBd8REf4uy",
           favorited: false
         },
-        {
-          name: "Chor",
-          artist: "Justh",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source: "mp3/justh.mp3",
-          url: "https://youtu.be/Gg48H-lrZHo?si=vkJJEXhmWQxNQbzu",
-          favorited: false
-        }
       ],
       currentTrack: null,
       currentTrackIndex: 0,
