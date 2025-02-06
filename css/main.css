@@ -63,7 +63,9 @@ body.dark-mode {
   background-color: #1a1a1a; /* Dark background */
   color: #fff; /* White text for contrast */
 }
-
+body.dark-mode .header p {
+  color: #fff; /* Change text color to white */
+}
 @keyframes heartbeat {
   0%, 100% {
     transform: scale(1);
