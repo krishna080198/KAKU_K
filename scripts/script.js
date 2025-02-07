@@ -14,9 +14,18 @@ new Vue({
           artist: "Rahgir",
           cover: "https://png.pngtree.com/thumb_back/fw800/background/20231229/pngtree-wall-texture-effect-with-gold-grunge-image_15562110.jpg",
           source: "mp3/Rahgira Mila Kabira Se Rahgir New Song.mp3",
+          url: "https://youtu.be/T1pTqbjAVQg?si=huvoCs7omOWnmTmA",
+          favorited: false
+        },
+        {
+          name: "Dil Jhoom ",
+          artist: "Arjit Singh",
+          cover: "https://i.pinimg.com/736x/a1/de/ea/a1deea0e1658c7fce5e34b4959c6734c.jpg",
+          source: "mp3/dil jhoom.mp3",
           url: "https://youtu.be/HogFvhtY0Zc?si=VUl0QX4FNmzmdJJm",
           favorited: false
         },
+        
         {
           name: "Devine",
           artist: "Krishna hazar",
